@@ -1,6 +1,6 @@
 (function($){
   // Caption
-  $('.entry-content').each(function(i){
+  $('.entry').each(function(i){
     $(this).find('img').each(function(){
       var alt = this.alt;
 
