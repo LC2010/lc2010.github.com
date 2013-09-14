@@ -1,14 +1,24 @@
 (function($){
   // Caption
   $('.entry').each(function(i){
+<<<<<<< HEAD
     $(this).find('img').each(function(){
+=======
+    $(this).find('img:not([class*="no-fancybox"])').each(function(){
+>>>>>>> c8c3ce41c3ce1867d97da382e45980ec47bde67b
       var alt = this.alt;
 
       if (alt){
         $(this).after('<span class="caption">' + alt + '</span>');
       }
 
+<<<<<<< HEAD
       $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery' + i + '" />');
+=======
+      if ($(this).parent('a').length === 0) {
+        $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox" rel="gallery' + i + '" />');
+      }
+>>>>>>> c8c3ce41c3ce1867d97da382e45980ec47bde67b
     });
   });
 
