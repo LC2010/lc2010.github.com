@@ -4,7 +4,7 @@
   <subtitle><![CDATA[我的空地]]></subtitle>
   <link href="http://www.superlich.com/atom.xml" rel="self"/>
   <link href="http://www.superlich.com"/>
-  <updated>2013-09-14T11:35:47.119Z</updated>
+  <updated>2013-09-14T13:43:24.764Z</updated>
   <id>http://www.superlich.com/</id>
   <author>
     <name><![CDATA[LiangChao]]></name>
@@ -31,32 +31,5 @@
 <p><a id="more"></a><br>幸福生活</p>
 ]]></content>
     <category scheme="http://www.superlich.com/tags/哲学/" term="哲学"/>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Hello]]></title>
-    <link href="http://www.superlich.com/2013/07/17/hello/"/>
-    <id>http://www.superlich.com/2013/07/17/hello/</id>
-    <published>2013-07-17T02:22:40.000Z</published>
-    <updated>2013-08-04T15:15:42.000Z</updated>
-    <content type="html"><![CDATA[<p>This is my hello</p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[MY WORK]]></title>
-    <link href="http://www.superlich.com/2013/07/17/my-work/"/>
-    <id>http://www.superlich.com/2013/07/17/my-work/</id>
-    <published>2013-07-17T01:38:54.000Z</published>
-    <updated>2013-07-17T03:14:16.000Z</updated>
-    <content type="html"><![CDATA[<p>这是一个MarkDown书写的POST，只要熟悉MarkDown语法，整体来说还是很效率的</p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://www.superlich.com/2013/07/17/hello-world/"/>
-    <id>http://www.superlich.com/2013/07/17/hello-world/</id>
-    <published>2013-07-17T01:38:35.000Z</published>
-    <updated>2013-07-17T01:38:35.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
-]]></content>
   </entry>
 </feed>
