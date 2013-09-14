@@ -1,0 +1,23 @@
+<section class="social aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">
+    Stalk me!
+  </h1>
+  <ul class="unstyled">
+    <li><a class="adn" href="//alpha.app.net/coogan"><i class="icon-adn"></i> App.net</a></li>
+    
+    <li><a class="github" href="//github.com/coogie"><i class="icon-github"></i> Github</a></li>
+    
+    <li><a class="gplus" href="//plus.google.com/100468279968854962736"><i class="icon-google-plus-sign"></i> Google+</a></li>
+    <li><a class="linkedin" href="//linkedin.com/in/coogie"><i class="icon-linkedin-sign"></i> LinkedIn</a></li>
+    
+    
+    <li><a class="twitter" href="//twitter.com/coog_ie"><i class="icon-twitter"></i> Twitter</a></li>
+    
+  </ul>
+</section>
+<% theme.widgets.forEach(function(widget){ %>
+  <section class="aside-module grid__item one-whole lap-one-half">
+    <%- partial('../_widget/' + widget) %>  
+  </section>
+  
+<% }); %>

@@ -1,0 +1,21 @@
+<%- partial('_partial/head') %>
+
+<body>
+<header id="header" class="inner"><%- partial('_partial/header') %></header>
+
+<div class="grid-wrapper">
+  <div class="grid grid-center">
+        <div class="grid__item two-thirds lap-one-whole palm-one-whole">
+        <%- body %>
+        </div>
+        <aside id="sidebar" class="grid__item one-third lap-one-whole palm-one-whole">
+            <div class="grid">
+                <%- partial('_partial/sidebar') %>
+            </div>
+        </aside> 
+  </div>
+</div>
+<footer id="footer" class="inner"><%- partial('_partial/footer') %></footer>
+<%- partial('_partial/after_footer') %>
+</body>
+</html>

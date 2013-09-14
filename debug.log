@@ -1,5 +1,5 @@
-date: 2013-09-14 02:26:48.706
-argv: node /Users/liang/nvm/v0.10.17/bin/hexo generate
+date: 2013-09-14 18:25:30.495
+argv: node /Users/liang/nvm/v0.10.17/bin/hexo server --debug
 os: Darwin 12.4.0 darwin x64
 version:
   hexo: 2.1.0
@@ -13,50 +13,165 @@ version:
   openssl: 1.0.1e
 ---
 
-[debug] 02:26:48.229 Configuration file load successfully
-[debug] 02:26:48.231 Version info checked successfully
-[debug] 02:26:48.232 Loading the database...
-[debug] 02:26:48.389 Theme layout loaded
-[debug] 02:26:48.402 Theme configuration loaded
-[debug] 02:26:48.416 Theme source loaded
-[debug] 02:26:48.422 Theme i18n loaded
-[debug] 02:26:48.466 Processed: _posts/hello-world.md
-[debug] 02:26:48.468 Processed: _posts/hello.md
-[debug] 02:26:48.472 Processed: _posts/my-work.md
-[debug] 02:26:48.473 Processed: _posts/心情私语.md
-[debug] 02:26:48.499 Cache saved
-[info] 02:26:48.500 Files loaded in 0.130s
-[debug] 02:26:48.510 Public folder not exists. No need to clear public folder.
-[debug] 02:26:48.514 Render archive: archives/
-[debug] 02:26:48.516 Render archive: archives/2013/
-[debug] 02:26:48.522 Render archive: archives/2013/07/
-[debug] 02:26:48.523 Render archive: archives/2013/09/
-[debug] 02:26:48.523 Render index: 
-[debug] 02:26:48.523 Render post: 2013/09/14/心情私语/
-[debug] 02:26:48.523 Render post: 2013/07/17/hello/
-[debug] 02:26:48.523 Render post: 2013/07/17/my-work/
-[debug] 02:26:48.523 Render post: 2013/07/17/hello-world/
-[debug] 02:26:48.523 Render tag: tags/哲学/
-[error] 02:26:48.706 HexoError: Render failed: css/style.css
-ParseError: /Users/liang/Work/PersonalBlog/themes/light/source/css/_base/variable.styl:14
-   10| font-serif = "Georgia", serif
-   11| font-mono = Monaco, Menlo, Consolas, Courier New, monospace
-   12| font-title = "Lato", Helvetica Neue, Helvetica, Arial, sans-serif
-   13| 
- > 14| @import url(//fonts.googleapis.com/css?family=Lato:400,400italic)
-   15| 
-   16| font-icon = FontAwesome
-   17| font-icon-path = 'font/fontawesome-webfont'
+[debug] 18:25:30.509 Configuration file load successfully
+[debug] 18:25:30.515 Plugin loaded successfully: hexo-generator-feed
+[debug] 18:25:30.517 Plugin loaded successfully: hexo-generator-sitemap
+[debug] 18:25:30.517 Version info checked successfully
+[debug] 18:25:30.518 Loading the database...
+[debug] 18:25:30.692 Theme layout loaded
+[debug] 18:25:30.693 Start watching theme layout...
+[debug] 18:25:30.704 Theme source loaded
+[debug] 18:25:30.706 Theme configuration loaded
+[debug] 18:25:30.707 Start watching theme source...
+[debug] 18:25:30.710 Theme i18n loaded
+[debug] 18:25:30.782 Processed: _posts/hello-world.md
+[debug] 18:25:30.784 Processed: _posts/hello.md
+[debug] 18:25:30.786 Processed: _posts/my-work.md
+[debug] 18:25:30.787 Processed: _posts/心情私语.md
+[debug] 18:25:30.811 Cache saved
+[info] 18:25:30.814 Hexo is running at localhost:4000/. Press Ctrl+C to stop.
+[debug] 18:25:35.029 Render index: 
+[error] 18:25:35.381 HexoError: Theme source render failed: css/style.styl
+ParseError: /Users/liang/Work/PersonalBlog/themes/light/source/css/_partial/sidebar.styl:73
+   69|       margin-right 10px
+   70|       display inline-block
+   71| 
+   72| 
+ > 73| media screen and (min-width: 481px)
+   74|   .social ul
+   75|      -webkit-column-count 2
+   76|      -moz-column-count 2
 
-expected ")", got "space"
+expected "indent", got "&&"
 
     at Parser.error (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:166:11)
     at Parser.expect (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:194:12)
-    at Parser.url (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1227:10)
-    at Parser.functionCall (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1237:52)
-    at Parser.primary (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1611:21)
-    at Parser.subscript (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1561:21)
-    at Parser.unary (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1552:17)
-    at Parser.defined (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1526:21)
-    at Parser.multiplicative (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1500:21)
-    at Parser.additive (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1485:21)
+    at Parser.block (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:606:12)
+    at Parser.selector (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1090:24)
+    at Parser.ident (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:988:25)
+    at Parser.stmt (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:555:26)
+    at Parser.statement (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:465:21)
+    at Parser.parse (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:145:23)
+    at Evaluator.visitImport (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/visitor/evaluator.js:723:20)
+    at Evaluator.Visitor.visit (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+
+[debug] 18:27:09.212 Render index: 
+[error] 18:27:09.525 HexoError: Theme source render failed: css/style.styl
+ParseError: /Users/liang/Work/PersonalBlog/themes/light/source/css/_partial/sidebar.styl:73
+   69|       margin-right 10px
+   70|       display inline-block
+   71| 
+   72| 
+ > 73| media screen and (min-width: 481px)
+   74|   .social ul
+   75|     -webkit-column-count 2
+   76|     -moz-column-count 2
+
+expected "indent", got "&&"
+
+    at Parser.error (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:166:11)
+    at Parser.expect (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:194:12)
+    at Parser.block (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:606:12)
+    at Parser.selector (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1090:24)
+    at Parser.ident (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:988:25)
+    at Parser.stmt (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:555:26)
+    at Parser.statement (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:465:21)
+    at Parser.parse (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:145:23)
+    at Evaluator.visitImport (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/visitor/evaluator.js:723:20)
+    at Evaluator.Visitor.visit (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+
+[debug] 18:27:11.330 Render index: 
+[error] 18:27:11.601 HexoError: Theme source render failed: css/style.styl
+ParseError: /Users/liang/Work/PersonalBlog/themes/light/source/css/_partial/sidebar.styl:73
+   69|       margin-right 10px
+   70|       display inline-block
+   71| 
+   72| 
+ > 73| media screen and (min-width: 481px)
+   74|   .social ul
+   75|     -webkit-column-count 2
+   76|     -moz-column-count 2
+
+expected "indent", got "&&"
+
+    at Parser.error (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:166:11)
+    at Parser.expect (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:194:12)
+    at Parser.block (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:606:12)
+    at Parser.selector (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1090:24)
+    at Parser.ident (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:988:25)
+    at Parser.stmt (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:555:26)
+    at Parser.statement (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:465:21)
+    at Parser.parse (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:145:23)
+    at Evaluator.visitImport (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/visitor/evaluator.js:723:20)
+    at Evaluator.Visitor.visit (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+
+[debug] 18:27:37.066 Render index: 
+[debug] 18:28:23.289 Render index: 
+[debug] 18:29:35.243 Render index: 
+[debug] 18:31:49.828 Render index: 
+[debug] 18:35:27.544 Render index: 
+[error] 18:35:27.844 HexoError: Theme source render failed: css/style.styl
+ParseError: /Users/liang/Work/PersonalBlog/themes/light/source/css/_partial/sidebar.styl:78
+   74|   list-style-type none
+   75|   margin 0
+   76| 
+   77| @media screen and (min-width: 481px)  
+ > 78| 
+   79| .social a 
+   80|     -webkit-box-sizing border-box
+   81|     -moz-box-sizing border-box
+
+expected "indent", got "newline"
+
+    at Parser.error (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:166:11)
+    at Parser.expect (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:194:12)
+    at Parser.block (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:606:12)
+    at Parser.media (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:745:24)
+    at Parser.stmt (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:555:26)
+    at Parser.statement (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:465:21)
+    at Parser.parse (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:145:23)
+    at Evaluator.visitImport (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/visitor/evaluator.js:723:20)
+    at Evaluator.Visitor.visit (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/visitor/index.js:28:40)
+    at Evaluator.visit (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/visitor/evaluator.js:93:18)
+
+[debug] 18:36:58.036 Render index: 
+[debug] 18:38:41.082 Render index: 
+[debug] 18:39:00.331 Render index: 
+[debug] 18:39:58.826 Render index: 
+[debug] 18:40:59.755 Render index: 
+[debug] 18:42:03.371 Render index: 
+[debug] 18:43:19.708 Render index: 
+[debug] 18:44:46.723 Render index: 
+[debug] 19:04:44.899 Render index: 
+[create] 19:07:27.377 Theme source: css/font-awesome-ie7.scss
+[create] 19:07:27.378 Theme source: css/font-awesome.scss
+[debug] 19:09:13.859 Render index: 
+[create] 19:09:56.495 Theme source: css/font-awesome-ie7.css
+[create] 19:09:56.495 Theme source: css/font-awesome-ie7.min.css
+[create] 19:09:56.496 Theme source: css/font-awesome.css
+[create] 19:09:56.496 Theme source: css/font-awesome.min.css
+[debug] 19:10:01.867 Render index: 
+[debug] 19:12:11.411 Render index: 
+[debug] 19:13:30.811 Render index: 
+[debug] 19:15:35.699 Render index: 
+[debug] 19:16:23.026 Render index: 
+[debug] 19:17:18.024 Render index: 
+[debug] 19:17:19.833 Render index: 
+[debug] 19:17:39.307 Render index: 
+[debug] 19:17:41.020 Render index: 
+[debug] 19:17:59.235 Render index: 
+[debug] 19:18:13.819 Render index: 
+[debug] 19:24:00.956 Render index: 
+[create] 19:25:00.870 Theme source: css/font/FontAwesome.otf
+[update] 19:25:03.873 Theme source: css/font/fontawesome-webfont.eot
+[update] 19:25:03.874 Theme source: css/font/fontawesome-webfont.ttf
+[update] 19:25:03.874 Theme source: css/font/fontawesome-webfont.woff
+[update] 19:25:03.874 Theme source: css/font/fontawesome-webfont.svg
+[update] 19:25:03.876 Theme source: css/font/FontAwesome.otf
+[debug] 19:25:09.027 Render index: 
+[debug] 19:25:22.204 Render index: 
+[debug] 19:26:03.665 Render index: 
+[debug] 19:26:46.703 Render index: 
+[debug] 19:26:50.939 Render index: 
+[debug] 19:27:38.530 Render index: 
+[debug] 19:29:55.976 Render index: 

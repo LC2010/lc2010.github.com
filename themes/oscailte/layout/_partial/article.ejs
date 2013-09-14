@@ -1,0 +1,39 @@
+<article class="<% if (index) { %>listing<% } else { %>post<% } %>">
+  <% if (item.photos){ %>
+    <%- partial('post/gallery') %>
+  <% } %>
+
+  <header>
+    <%- partial('post/title') %>
+    <div class="meta clearfix">
+      <time class="pull-left" datetime="<%= item.date.toDate().toISOString() %>">
+        <a href="<%- config.root %><%- item.path %>">
+        <i class="icon-calendar"><%= item.date.format(config.date_format) %></i> 
+        </a>
+      </time>
+    </div>
+  </header>
+  <div class="entry-content clearfix">
+    <% if (item.excerpt && index){ %>
+      <%- item.excerpt %>
+    <% } else { %>
+      <%- item.content %>
+    <% } %>    
+  </div>
+    <footer>
+      <% if (index){ %>
+        <% if (item.excerpt){ %>
+          <div class="alignleft">
+            <a href="<%- config.root %><%- item.path %>#more" class="more-link"><%= theme.excerpt_link %></a>
+          </div>
+        <% } %>
+        <% if (item.comment && config.disqus_shortname){ %>
+        <div class="alignright">
+          <a href="<%- item.permalink %>#disqus_thread" class="comment-link">Comments</a>
+        </div>
+        <% } %>
+      <% } %>
+    </footer>  
+</article>
+<%- partial('comment') %>
+
