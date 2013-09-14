@@ -1,0 +1,62 @@
+date: 2013-09-14 02:26:48.706
+argv: node /Users/liang/nvm/v0.10.17/bin/hexo generate
+os: Darwin 12.4.0 darwin x64
+version:
+  hexo: 2.1.0
+  http_parser: 1.0
+  node: 0.10.17
+  v8: 3.14.5.9
+  ares: 1.9.0-DEV
+  uv: 0.10.14
+  zlib: 1.2.3
+  modules: 11
+  openssl: 1.0.1e
+---
+
+[debug] 02:26:48.229 Configuration file load successfully
+[debug] 02:26:48.231 Version info checked successfully
+[debug] 02:26:48.232 Loading the database...
+[debug] 02:26:48.389 Theme layout loaded
+[debug] 02:26:48.402 Theme configuration loaded
+[debug] 02:26:48.416 Theme source loaded
+[debug] 02:26:48.422 Theme i18n loaded
+[debug] 02:26:48.466 Processed: _posts/hello-world.md
+[debug] 02:26:48.468 Processed: _posts/hello.md
+[debug] 02:26:48.472 Processed: _posts/my-work.md
+[debug] 02:26:48.473 Processed: _posts/心情私语.md
+[debug] 02:26:48.499 Cache saved
+[info] 02:26:48.500 Files loaded in 0.130s
+[debug] 02:26:48.510 Public folder not exists. No need to clear public folder.
+[debug] 02:26:48.514 Render archive: archives/
+[debug] 02:26:48.516 Render archive: archives/2013/
+[debug] 02:26:48.522 Render archive: archives/2013/07/
+[debug] 02:26:48.523 Render archive: archives/2013/09/
+[debug] 02:26:48.523 Render index: 
+[debug] 02:26:48.523 Render post: 2013/09/14/心情私语/
+[debug] 02:26:48.523 Render post: 2013/07/17/hello/
+[debug] 02:26:48.523 Render post: 2013/07/17/my-work/
+[debug] 02:26:48.523 Render post: 2013/07/17/hello-world/
+[debug] 02:26:48.523 Render tag: tags/哲学/
+[error] 02:26:48.706 HexoError: Render failed: css/style.css
+ParseError: /Users/liang/Work/PersonalBlog/themes/light/source/css/_base/variable.styl:14
+   10| font-serif = "Georgia", serif
+   11| font-mono = Monaco, Menlo, Consolas, Courier New, monospace
+   12| font-title = "Lato", Helvetica Neue, Helvetica, Arial, sans-serif
+   13| 
+ > 14| @import url(//fonts.googleapis.com/css?family=Lato:400,400italic)
+   15| 
+   16| font-icon = FontAwesome
+   17| font-icon-path = 'font/fontawesome-webfont'
+
+expected ")", got "space"
+
+    at Parser.error (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:166:11)
+    at Parser.expect (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:194:12)
+    at Parser.url (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1227:10)
+    at Parser.functionCall (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1237:52)
+    at Parser.primary (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1611:21)
+    at Parser.subscript (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1561:21)
+    at Parser.unary (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1552:17)
+    at Parser.defined (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1526:21)
+    at Parser.multiplicative (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1500:21)
+    at Parser.additive (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/stylus/lib/parser.js:1485:21)
