@@ -312,7 +312,7 @@ article .post-content {
   content: '\f054';
   right: 10px;
 }
-header .icon {
+header .icon-file-text {
   width: 32px;
   height: 32px;
   margin-right: 25px;
@@ -322,11 +322,11 @@ header .icon {
   color: #258fb8;
 }
 @media screen and (max-width: 600px) {
-  header .icon {
+  header .icon-file-text {
     display: none;
   }
 }
-header .icon:before {
+header .icon-file-text:before {
   position: absolute;
   font: 32px FontAwesome;
   top: 0;
