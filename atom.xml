@@ -4,7 +4,7 @@
   <subtitle><![CDATA[我的空地]]></subtitle>
   <link href="http://www.superlich.com/atom.xml" rel="self"/>
   <link href="http://www.superlich.com"/>
-  <updated>2013-09-15T09:35:31.283Z</updated>
+  <updated>2013-09-15T09:46:19.614Z</updated>
   <id>http://www.superlich.com/</id>
   <author>
     <name><![CDATA[LiangChao]]></name>
@@ -16,7 +16,7 @@
     <link href="http://www.superlich.com/2013/09/14/心情私语/"/>
     <id>http://www.superlich.com/2013/09/14/心情私语/</id>
     <published>2013-09-13T17:37:22.000Z</published>
-    <updated>2013-09-14T04:13:58.000Z</updated>
+    <updated>2013-09-15T09:46:15.000Z</updated>
     <content type="html"><![CDATA[<p>美丽心情</p>
 <figure class="highlight lang-[javascript][jquery][http://www.leho.com][乐活]"><table><tr><td class="gutter"><pre>1
 </pre></td><td class="code"><pre><span class="title">var</span> o = document.getElementById(<span class="string">'odiv'</span>);
@@ -28,7 +28,7 @@
 =&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]
 </pre></td></tr></table></figure>
 
-<p><a id="more"></a><br>幸福生活</p>
+<p><a id="more"></a><br>幸福生活<br><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg" alt="好看不"></p>
 ]]></content>
     <category scheme="http://www.superlich.com/tags/哲学/" term="哲学"/>
   </entry>
