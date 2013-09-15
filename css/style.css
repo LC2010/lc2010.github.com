@@ -9,8 +9,21 @@
   margin: 0;
   padding: 0;
 }
+.blur_bg {
+  background: url("/imgs/1sbg.jpg") no-repeat scroll center bottom;
+  height: 100%;
+  margin: auto;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
 body {
-  background: url("/imgs/noise.png") #eee;
   color: #444;
   font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 14px;
@@ -102,8 +115,17 @@ a:hover {
   }
 }
 #header {
+  z-index: 100;
+}
+#content {
+  z-index: 100;
+}
+#footer {
+  z-index: 100;
+}
+#header {
   text-shadow: 0 0 1px #fff;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 #header a {
   color: #999;
@@ -123,7 +145,11 @@ a:hover {
   line-height: 1;
   margin-top: 10px;
 }
+#header .alignleft {
+  padding: 50px 0;
+}
 #header #main-nav {
+  padding: 50px;
   font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 2.5em;
 }
