@@ -392,7 +392,7 @@ header .title a:hover {
 }
 .entry code,
 .entry pre {
-  font-family: Monaco, Menlo, Consolas, Courier New, monospace;
+  font-family: Consolas, Monaco, Menlo, Courier New, monospace;
 }
 .entry code {
   background: #eee;
@@ -911,7 +911,7 @@ ul.unstyled {
 }
 .entry .gist .gist-file .gist-data pre {
   padding: 0 !important;
-  font-family: Monaco, Menlo, Consolas, Courier New, monospace;
+  font-family: Consolas, Monaco, Menlo, Courier New, monospace;
 }
 .entry .gist .gist-file .gist-meta {
   background: none;
