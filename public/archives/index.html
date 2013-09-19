@@ -19,13 +19,18 @@
   <link href="/favicon.png" rel="icon">
   <link rel="alternate" href="/atom.xml" title="Superlich" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/css/font-awesome-ie7.min.css" media="screen" type="text/css">
+  <![endif]-->
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
   
 </head>
 
 
-<body>
+<body> 
+  <div class="blur_bg"></div>
   <header id="header" class="inner"><div class="alignleft">
   <h1><a href="/">Superlich</a></h1>
   <h2><a href="/">我的空地</a></h2>
@@ -54,7 +59,60 @@
   <div class="post-content">
     <header>
       
-        <div class="icon"></div>
+        <div class="icon-file-text"></div>
+        <time datetime="2013-09-19T14:00:06.000Z"><a href="/2013/09/19/casperjs/">9月 19日 2013</a></time>
+      
+      
+  
+    <h1 class="title"><a href="/2013/09/19/casperjs/">用Casper做网站截屏</a></h1>
+  
+
+    </header>
+    <div class="entry">
+      
+        <p>网站截屏是个会遇到的硬需求，每个人至少手中应该有一个解决方案。</p>
+<p>自从有了PhantomJS之后前端就在截屏这个需求上解放了。PhantomJS是基于Webkit的一套</p>
+<p>工具，最近又出现了SlimerJS基于Gecko平台。在两者之上出现了一个<a href="http://casperjs.org" target="_blank">CasperJS</a><br>. </p>
+<p>CasperJS将两者抹平，并且提供了更加友好的API,而且最近v1.1版本可以直接引入node的模</p>
+<p>块了，所以可以做的事情特别多。这是官网上介绍的几个功能：</p>
+<ul>
+<li>defining &amp; ordering browsing navigation steps</li>
+<li>filling &amp; submitting forms</li>
+<li>capturing screenshots of a page (or part of it)</li>
+<li>testing remote DOM</li>
+<li>logging events</li>
+<li>downloading resources, including binary ones</li>
+<li>writing functional test suites, saving results as JUnit XML</li>
+<li>scraping Web contents</li>
+</ul>
+<p>更进一步的功能，大家可以参考官方文档。</p>
+<p>这里主要讲一下怎么使用CasperJS来进行屏幕截取</p>
+<script src="https://gist.github.com/6624076.js"></script>
+
+
+<p>效果如下：</p>
+<img src="/img/fullpage-1440(2013-09-19).png" class="[class names]" width="800" height="200" title="截图">
+
+      
+    </div>
+    <footer>
+      
+        
+        
+      
+      <div class="clearfix"></div>
+    </footer>
+  </div>
+</article>
+
+
+  
+    <article class="post">
+  
+  <div class="post-content">
+    <header>
+      
+        <div class="icon-file-text"></div>
         <time datetime="2013-09-13T17:37:22.000Z"><a href="/2013/09/14/心情私语/">9月 14日 2013</a></time>
       
       
@@ -66,15 +124,12 @@
     <div class="entry">
       
         <p>美丽心情</p>
-<figure class="highlight lang-[javascript][jquery][http://www.leho.com][乐活]"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre><span class="title">var</span> o = document.getElementById(<span class="string">'odiv'</span>);
-</pre></td></tr></table></figure>
+<figure class="highlight lang-[javascript][jquery][http://www.leho.com][乐活]"><pre><span class="title">var</span> o = document.getElementById(<span class="string">'odiv'</span>);
+</pre></figure>
 
-<figure class="highlight"><figcaption><span>.compact</span><a href="http://www.baidu.com" target="_blank">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre>1
-2
-</pre></td><td class="code"><pre>.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="keyword">false</span>, <span class="number">2</span>, <span class="string">''</span>, <span class="number">3</span>]);
+<figure class="highlight"><figcaption><span>.compact</span><a href="http://www.baidu.com" target="_blank">Underscore.js</a></figcaption><pre>.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="keyword">false</span>, <span class="number">2</span>, <span class="string">''</span>, <span class="number">3</span>]);
 =&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]
-</pre></td></tr></table></figure>
+</pre></figure>
 
 <p>
       
@@ -85,102 +140,6 @@
           <div class="alignleft">
             <a href="/2013/09/14/心情私语/#more" class="more-link">继续阅读</a>
           </div>
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-  
-    <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2013-07-17T02:22:40.000Z"><a href="/2013/07/17/hello/">7月 17日 2013</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2013/07/17/hello/">Hello</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>This is my hello</p>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-  
-    <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2013-07-17T01:38:54.000Z"><a href="/2013/07/17/my-work/">7月 17日 2013</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2013/07/17/my-work/">MY WORK</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>这是一个MarkDown书写的POST，只要熟悉MarkDown语法，整体来说还是很效率的</p>
-
-      
-    </div>
-    <footer>
-      
-        
-        
-      
-      <div class="clearfix"></div>
-    </footer>
-  </div>
-</article>
-
-
-  
-    <article class="post">
-  
-  <div class="post-content">
-    <header>
-      
-        <div class="icon"></div>
-        <time datetime="2013-07-17T01:38:35.000Z"><a href="/2013/07/17/hello-world/">7月 17日 2013</a></time>
-      
-      
-  
-    <h1 class="title"><a href="/2013/07/17/hello-world/">Hello World</a></h1>
-  
-
-    </header>
-    <div class="entry">
-      
-        <p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
-
-      
-    </div>
-    <footer>
-      
         
         
       
@@ -206,16 +165,10 @@
   </form>
 </div>
 
-  <div class="widget tag">
+  <div class="widget tag social">
   <ul class="unstyled">
-    <li><a class="adn" href="//alpha.app.net/coogan"><i class="icon-adn"></i> App.net</a></li>
-    
-    <li><a class="github" href="//github.com/coogie"><i class="icon-github"></i> Github</a></li>
-    
-    <li><a class="gplus" href="//plus.google.com/100468279968854962736"><i class="icon-google-plus-sign"></i> Google+</a></li>
-    <li><a class="linkedin" href="//linkedin.com/in/coogie"><i class="icon-linkedin-sign"></i> LinkedIn</a></li>
-    <li><a class="twitter" href="//twitter.com/coog_ie"><i class="icon-twitter"></i> Twitter</a></li>
-    
+    <li><a class="github" href="//github.com/lc2010" target="blank"><i class="icon-github"></i> Github</a></li>
+    <li><a class="weibo" href="//weibo.com/liangchao1985" target="blank"><i class="icon-weibo"></i> weibo</a></li>
   </ul>  
 </div>
 
@@ -226,6 +179,8 @@
   <h3 class="title">标签</h3>
   <ul class="entry">
   
+    <li><a href="/tags/casperjs/">casperjs</a><small>1</small></li>
+  
     <li><a href="/tags/哲学/">哲学</a><small>1</small></li>
   
   </ul>
@@ -234,23 +189,15 @@
 
   
 <div class="widget tag">
-  <h3 class="title">近期发布</h3>
+  <h3 class="title">最近发布</h3>
   <ul class="entry">
     
       <li>
+        <a href="/2013/09/19/casperjs/">用Casper做网站截屏</a>
+      </li>
+    
+      <li>
         <a href="/2013/09/14/心情私语/">心情私语</a>
-      </li>
-    
-      <li>
-        <a href="/2013/07/17/hello/">Hello</a>
-      </li>
-    
-      <li>
-        <a href="/2013/07/17/my-work/">MY WORK</a>
-      </li>
-    
-      <li>
-        <a href="/2013/07/17/hello-world/">Hello World</a>
       </li>
     
   </ul>

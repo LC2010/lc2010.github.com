@@ -4,7 +4,7 @@
   <subtitle><![CDATA[我的空地]]></subtitle>
   <link href="http://www.superlich.com/atom.xml" rel="self"/>
   <link href="http://www.superlich.com"/>
-  <updated>2013-09-14T10:10:52.299Z</updated>
+  <updated>2013-09-19T15:10:50.085Z</updated>
   <id>http://www.superlich.com/</id>
   <author>
     <name><![CDATA[LiangChao]]></name>
@@ -12,51 +12,52 @@
   </author>
   <generator uri="http://zespia.tw/hexo">Hexo</generator>
   <entry>
+    <title type="html"><![CDATA[用Casper做网站截屏]]></title>
+    <link href="http://www.superlich.com/2013/09/19/casperjs/"/>
+    <id>http://www.superlich.com/2013/09/19/casperjs/</id>
+    <published>2013-09-19T14:00:06.000Z</published>
+    <updated>2013-09-19T15:10:14.000Z</updated>
+    <content type="html"><![CDATA[<p>网站截屏是个会遇到的硬需求，每个人至少手中应该有一个解决方案。</p>
+<p>自从有了PhantomJS之后前端就在截屏这个需求上解放了。PhantomJS是基于Webkit的一套</p>
+<p>工具，最近又出现了SlimerJS基于Gecko平台。在两者之上出现了一个<a href="http://casperjs.org" target="_blank">CasperJS</a><br>. </p>
+<p>CasperJS将两者抹平，并且提供了更加友好的API,而且最近v1.1版本可以直接引入node的模</p>
+<p>块了，所以可以做的事情特别多。这是官网上介绍的几个功能：</p>
+<ul>
+<li>defining &amp; ordering browsing navigation steps</li>
+<li>filling &amp; submitting forms</li>
+<li>capturing screenshots of a page (or part of it)</li>
+<li>testing remote DOM</li>
+<li>logging events</li>
+<li>downloading resources, including binary ones</li>
+<li>writing functional test suites, saving results as JUnit XML</li>
+<li>scraping Web contents</li>
+</ul>
+<p>更进一步的功能，大家可以参考官方文档。</p>
+<p>这里主要讲一下怎么使用CasperJS来进行屏幕截取</p>
+<script src="https://gist.github.com/6624076.js"></script>
+
+
+<p>效果如下：</p>
+<img src="/img/fullpage-1440(2013-09-19).png" class="[class names]" width="800" height="200" title="截图">
+]]></content>
+    <category scheme="http://www.superlich.com/tags/casperjs/" term="casperjs"/>
+  </entry>
+  <entry>
     <title type="html"><![CDATA[心情私语]]></title>
     <link href="http://www.superlich.com/2013/09/14/心情私语/"/>
     <id>http://www.superlich.com/2013/09/14/心情私语/</id>
     <published>2013-09-13T17:37:22.000Z</published>
-    <updated>2013-09-14T04:13:58.000Z</updated>
+    <updated>2013-09-15T09:46:15.000Z</updated>
     <content type="html"><![CDATA[<p>美丽心情</p>
-<figure class="highlight lang-[javascript][jquery][http://www.leho.com][乐活]"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre><span class="title">var</span> o = document.getElementById(<span class="string">'odiv'</span>);
-</pre></td></tr></table></figure>
+<figure class="highlight lang-[javascript][jquery][http://www.leho.com][乐活]"><pre><span class="title">var</span> o = document.getElementById(<span class="string">'odiv'</span>);
+</pre></figure>
 
-<figure class="highlight"><figcaption><span>.compact</span><a href="http://www.baidu.com" target="_blank">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre>1
-2
-</pre></td><td class="code"><pre>.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="keyword">false</span>, <span class="number">2</span>, <span class="string">''</span>, <span class="number">3</span>]);
+<figure class="highlight"><figcaption><span>.compact</span><a href="http://www.baidu.com" target="_blank">Underscore.js</a></figcaption><pre>.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="keyword">false</span>, <span class="number">2</span>, <span class="string">''</span>, <span class="number">3</span>]);
 =&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]
-</pre></td></tr></table></figure>
+</pre></figure>
 
-<p><a id="more"></a><br>幸福生活</p>
+<p><a id="more"></a><br>幸福生活<br><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg" alt="好看不"></p>
 ]]></content>
     <category scheme="http://www.superlich.com/tags/哲学/" term="哲学"/>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Hello]]></title>
-    <link href="http://www.superlich.com/2013/07/17/hello/"/>
-    <id>http://www.superlich.com/2013/07/17/hello/</id>
-    <published>2013-07-17T02:22:40.000Z</published>
-    <updated>2013-08-04T15:15:42.000Z</updated>
-    <content type="html"><![CDATA[<p>This is my hello</p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[MY WORK]]></title>
-    <link href="http://www.superlich.com/2013/07/17/my-work/"/>
-    <id>http://www.superlich.com/2013/07/17/my-work/</id>
-    <published>2013-07-17T01:38:54.000Z</published>
-    <updated>2013-07-17T03:14:16.000Z</updated>
-    <content type="html"><![CDATA[<p>这是一个MarkDown书写的POST，只要熟悉MarkDown语法，整体来说还是很效率的</p>
-]]></content>
-  </entry>
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://www.superlich.com/2013/07/17/hello-world/"/>
-    <id>http://www.superlich.com/2013/07/17/hello-world/</id>
-    <published>2013-07-17T01:38:35.000Z</published>
-    <updated>2013-07-17T01:38:35.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
-]]></content>
   </entry>
 </feed>

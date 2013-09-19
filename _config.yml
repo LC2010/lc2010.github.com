@@ -31,7 +31,7 @@ filename_case: 0
 highlight:
   enable: true
   backtick_code_block: true
-  line_number: true
+  line_number: false
   tab_replace:
 
 # Category & Tag

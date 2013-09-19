@@ -2,8 +2,20 @@
   margin 0
   padding 0
 
+
+.blur_bg
+  background url("/imgs/1sbg.jpg") no-repeat scroll center bottom
+  height 100%
+  margin auto
+  width: 100%
+  -webkit-background-size cover
+  -moz-background-size cover
+  -o-background-size cover
+  background-size cover
+  position fixed
+  z-index -1
+
 body
-  background url("/imgs/noise.png") color-background
   color color-font
   font-family font-default
   font-size 14px
@@ -61,3 +73,12 @@ a
     margin-right 300px
   @media screen and (max-width: 900px)
     margin-right 0
+
+#header
+  z-index 100
+
+#content
+  z-index 100
+#footer
+  z-index 100
+

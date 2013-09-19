@@ -7,13 +7,10 @@
   <meta name="author" content="LiangChao">
   
   <meta name="description" content="美丽心情
-1
 var o = document.getElementById('odiv');
 
 
-.compactUnderscore.js1
-2
-.compact([0, 1, false, 2, '', 3]);
+.compactUnderscore.js.compact([0, 1, false, 2, '', 3]);
 =&gt; [1, 2, 3]">
   
   
@@ -29,13 +26,18 @@ var o = document.getElementById('odiv');
   <link href="/favicon.png" rel="icon">
   <link rel="alternate" href="/atom.xml" title="Superlich" type="application/atom+xml">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/css/font-awesome-ie7.min.css" media="screen" type="text/css">
+  <![endif]-->
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
   
 </head>
 
 
-<body>
+<body> 
+  <div class="blur_bg"></div>
   <header id="header" class="inner"><div class="alignleft">
   <h1><a href="/">Superlich</a></h1>
   <h2><a href="/">我的空地</a></h2>
@@ -59,7 +61,7 @@ var o = document.getElementById('odiv');
   <div class="post-content">
     <header>
       
-        <div class="icon"></div>
+        <div class="icon-file-text"></div>
         <time datetime="2013-09-13T17:37:22.000Z"><a href="/2013/09/14/心情私语/">9月 14日 2013</a></time>
       
       
@@ -71,17 +73,14 @@ var o = document.getElementById('odiv');
     <div class="entry">
       
         <p>美丽心情</p>
-<figure class="highlight lang-[javascript][jquery][http://www.leho.com][乐活]"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre><span class="title">var</span> o = document.getElementById(<span class="string">'odiv'</span>);
-</pre></td></tr></table></figure>
+<figure class="highlight lang-[javascript][jquery][http://www.leho.com][乐活]"><pre><span class="title">var</span> o = document.getElementById(<span class="string">'odiv'</span>);
+</pre></figure>
 
-<figure class="highlight"><figcaption><span>.compact</span><a href="http://www.baidu.com" target="_blank">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre>1
-2
-</pre></td><td class="code"><pre>.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="keyword">false</span>, <span class="number">2</span>, <span class="string">''</span>, <span class="number">3</span>]);
+<figure class="highlight"><figcaption><span>.compact</span><a href="http://www.baidu.com" target="_blank">Underscore.js</a></figcaption><pre>.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="keyword">false</span>, <span class="number">2</span>, <span class="string">''</span>, <span class="number">3</span>]);
 =&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]
-</pre></td></tr></table></figure>
+</pre></figure>
 
-<p><a id="more"></a><br>幸福生活</p>
+<p><a id="more"></a><br>幸福生活<br><img src="http://ww2.sinaimg.cn/large/5e8cb366jw1e62o63tkv3j20dh078q5a.jpg" alt="好看不"></p>
 
       
     </div>
@@ -117,16 +116,10 @@ var o = document.getElementById('odiv');
   </form>
 </div>
 
-  <div class="widget tag">
+  <div class="widget tag social">
   <ul class="unstyled">
-    <li><a class="adn" href="//alpha.app.net/coogan"><i class="icon-adn"></i> App.net</a></li>
-    
-    <li><a class="github" href="//github.com/coogie"><i class="icon-github"></i> Github</a></li>
-    
-    <li><a class="gplus" href="//plus.google.com/100468279968854962736"><i class="icon-google-plus-sign"></i> Google+</a></li>
-    <li><a class="linkedin" href="//linkedin.com/in/coogie"><i class="icon-linkedin-sign"></i> LinkedIn</a></li>
-    <li><a class="twitter" href="//twitter.com/coog_ie"><i class="icon-twitter"></i> Twitter</a></li>
-    
+    <li><a class="github" href="//github.com/lc2010" target="blank"><i class="icon-github"></i> Github</a></li>
+    <li><a class="weibo" href="//weibo.com/liangchao1985" target="blank"><i class="icon-weibo"></i> weibo</a></li>
   </ul>  
 </div>
 
@@ -137,6 +130,8 @@ var o = document.getElementById('odiv');
   <h3 class="title">标签</h3>
   <ul class="entry">
   
+    <li><a href="/tags/casperjs/">casperjs</a><small>1</small></li>
+  
     <li><a href="/tags/哲学/">哲学</a><small>1</small></li>
   
   </ul>
@@ -145,23 +140,15 @@ var o = document.getElementById('odiv');
 
   
 <div class="widget tag">
-  <h3 class="title">近期发布</h3>
+  <h3 class="title">最近发布</h3>
   <ul class="entry">
     
       <li>
+        <a href="/2013/09/19/casperjs/">用Casper做网站截屏</a>
+      </li>
+    
+      <li>
         <a href="/2013/09/14/心情私语/">心情私语</a>
-      </li>
-    
-      <li>
-        <a href="/2013/07/17/hello/">Hello</a>
-      </li>
-    
-      <li>
-        <a href="/2013/07/17/my-work/">MY WORK</a>
-      </li>
-    
-      <li>
-        <a href="/2013/07/17/hello-world/">Hello World</a>
       </li>
     
   </ul>

@@ -9,10 +9,23 @@
   margin: 0;
   padding: 0;
 }
+.blur_bg {
+  background: url("/imgs/1sbg.jpg") no-repeat scroll center bottom;
+  height: 100%;
+  margin: auto;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+}
 body {
-  background: url("/imgs/noise.png") #eee;
   color: #444;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-family: "Georgia, 'Times New Roman', Times, 'Songti SC', SimSun, " Microsoft YaHei ", serif";
   font-size: 14px;
   text-shadow: 0 0 1px transparent;
 }
@@ -102,8 +115,17 @@ a:hover {
   }
 }
 #header {
+  z-index: 100;
+}
+#content {
+  z-index: 100;
+}
+#footer {
+  z-index: 100;
+}
+#header {
   text-shadow: 0 0 1px #fff;
-  margin: 50px auto;
+  margin: 0px auto;
 }
 #header a {
   color: #999;
@@ -123,7 +145,11 @@ a:hover {
   line-height: 1;
   margin-top: 10px;
 }
+#header .alignleft {
+  padding: 50px 0;
+}
 #header #main-nav {
+  padding: 50px;
   font-family: "Lato", Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 2.5em;
 }
@@ -286,7 +312,7 @@ article .post-content {
   content: '\f054';
   right: 10px;
 }
-header .icon {
+header .icon-file-text {
   width: 32px;
   height: 32px;
   margin-right: 25px;
@@ -296,11 +322,11 @@ header .icon {
   color: #258fb8;
 }
 @media screen and (max-width: 600px) {
-  header .icon {
+  header .icon-file-text {
     display: none;
   }
 }
-header .icon:before {
+header .icon-file-text:before {
   position: absolute;
   font: 32px FontAwesome;
   top: 0;
@@ -478,7 +504,6 @@ header .title a:hover {
 footer {
   margin-top: 15px;
   padding-top: 10px;
-  border-top: 1px solid #ddd;
   color: #999;
   font-size: 0.9em;
   line-height: 16px;
@@ -689,6 +714,172 @@ footer .addthis iframe {
 #sidebar .tagcloud a {
   margin-right: 10px;
   display: inline-block;
+}
+ul.unstyled {
+  list-style-type: none;
+  margin: 0;
+}
+#sidebar div.social {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+@media screen and (min-width: 481px) {
+  .social ul {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    -webkit-column-gap: 10px;
+    -moz-column-gap: 10px;
+    column-gap: 10px;
+  }
+}
+.social a {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #fff;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  color: #222;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-bottom: 7px;
+  padding: 1em;
+  padding-right: 0.5em;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  z-index: 5;
+  -webkit-transition: box-shadow 200ms, color 400ms, transform 400ms;
+  -moz-transition: box-shadow 200ms, color 400ms, transform 400ms;
+  -o-transition: box-shadow 200ms, color 400ms, transform 400ms;
+  -webkit-transition: box-shadow 200ms, color 400ms, -webkit-transform 400ms;
+  -moz-transition: box-shadow 200ms, color 400ms, -moz-transform 400ms;
+  -o-transition: box-shadow 200ms, color 400ms, -o-transform 400ms;
+  -ms-transition: box-shadow 200ms, color 400ms, -ms-transform 400ms;
+  transition: box-shadow 200ms, color 400ms, transform 400ms;
+}
+.social a:hover {
+  color: #fff !important;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+  z-index: 7;
+}
+.social a:hover::before {
+  border: 1px solid #000;
+  height: 100%;
+  top: 0;
+  width: 100%;
+}
+.social a::before {
+  background-color: #222;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  content: "";
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  width: 0;
+  z-index: -1;
+  -webkit-transition: border 200ms, height 200ms 200ms, top 200ms 200ms, width 200ms;
+  -moz-transition: border 200ms, height 200ms 200ms, top 200ms 200ms, width 200ms;
+  -o-transition: border 200ms, height 200ms 200ms, top 200ms 200ms, width 200ms;
+  -webkit-transition: border 200ms, height 200ms 200ms, top 200ms 200ms, width 200ms;
+  -moz-transition: border 200ms, height 200ms 200ms, top 200ms 200ms, width 200ms;
+  -o-transition: border 200ms, height 200ms 200ms, top 200ms 200ms, width 200ms;
+  -ms-transition: border 200ms, height 200ms 200ms, top 200ms 200ms, width 200ms;
+  transition: border 200ms, height 200ms 200ms, top 200ms 200ms, width 200ms;
+}
+.social a i {
+  font-size: 2em;
+  line-height: 0.8em;
+  margin-right: 0.35em;
+}
+.social a.adn {
+  color: #4a484c;
+}
+.social a.adn::before {
+  background-color: #4a484c;
+  border-color: #3d3c3f;
+}
+.social a.dribbble {
+  color: #ea4c89;
+}
+.social a.dribbble::before {
+  background-color: #ea4c89;
+  border-color: #e7357a;
+}
+.social a.facebook {
+  color: #3b5998;
+}
+.social a.facebook::before {
+  background-color: #3b5998;
+  border-color: #344e86;
+}
+.social a.github {
+  color: #333;
+}
+.social a.github::before {
+  background-color: #333;
+  border-color: #262626;
+}
+.social a.gplus {
+  color: #db4a39;
+}
+.social a.gplus::before {
+  background-color: #db4a39;
+  border-color: #d43927;
+}
+.social a.weibo {
+  color: #db4a39;
+}
+.social a.weibo::before {
+  background-color: #db4a39;
+  border-color: #d43927;
+}
+.social a.linkedin {
+  color: #4875b4;
+}
+.social a.linkedin::before {
+  background-color: #4875b4;
+  border-color: #4169a2;
+}
+.social a.pinterest {
+  color: #cc2127;
+}
+.social a.pinterest::before {
+  background-color: #cc2127;
+  border-color: #b61d23;
+}
+.social a.stackoverflow {
+  color: #fe7a15;
+}
+.social a.stackoverflow::before {
+  background-color: #fe7a15;
+  border-color: #f86c01;
+}
+.social a.twitter {
+  color: #00a0d1;
+}
+.social a.twitter::before {
+  background-color: #00a0d1;
+  border-color: #008cb7;
+}
+.social a.youtube {
+  color: #cc181e;
+}
+.social a.youtube::before {
+  background-color: #cc181e;
+  border-color: #b5151b;
 }
 #footer {
   color: #999;

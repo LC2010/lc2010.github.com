@@ -1,0 +1,262 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for	for (…) {…}"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/Build/node.sublime-build",
+	"command_palette":
+	{
+		"height": 251.0,
+		"selected_items":
+		[
+			[
+				"gist",
+				"Gist: Update File"
+			],
+			[
+				"open",
+				"Gist: Open Gist in Browser"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"set js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"brose",
+				"Preferences: Browse Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"setja",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 453.0
+	},
+	"console":
+	{
+		"height": 176.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/liang/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/phantomhello.js",
+		"/Users/liang/Library/Application Support/Sublime Text 2/Packages/Appealr/appealr-color-scheme.tmTheme",
+		"/Users/liang/Study/NODE/Grap/graperwall.js",
+		"/Users/liang/Study/NODE/NodeUP/tcpServer.js",
+		"/Users/liang/Library/Application Support/Sublime Text 2/Packages/Python/Python.sublime-build",
+		"/Users/liang/Library/Application Support/Sublime Text 2/Packages/User/Build/Node.sublime-build",
+		"/Users/liang/Study/NODE/Node迷你书/httprequest.js",
+		"/Users/liang/Work/PersonalBlog/source/_posts/心情私语.md",
+		"/Users/liang/Work/PersonalBlog/themes/light/layout/_partial/header.ejs",
+		"/Users/liang/Work/PersonalBlog/themes/light/source/css/_partial/header.styl",
+		"/Users/liang/Work/PersonalBlog/themes/light/layout/layout.ejs",
+		"/Users/liang/Work/PersonalBlog/themes/light/layout/_partial/article.ejs",
+		"/Users/liang/Work/PersonalBlog/themes/light/source/css/_partial/footer.styl",
+		"/Users/liang/Work/PersonalBlog/themes/light/source/css/_partial/sidebar.styl",
+		"/Users/liang/Work/PersonalBlog/themes/light/source/css/_partial/article.styl",
+		"/Users/liang/Work/PersonalBlog/themes/light/source/css/_base/layout.styl",
+		"/Users/liang/Work/PersonalBlog/themes/light/source/css/_base/variable.styl",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/goods/common/inc/widgets/pager.inc",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/goods/list/tpl/index.tpl",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/base/chaoyang/list/inc/js_pager.inc",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/base/chaoyang/list/tpl/index.tpl",
+		"/Users/liang/Work/LehoWork/LehoApp/resource/js/global/ajax_pager.js",
+		"/Users/liang/Work/LehoWork/leho.sublime-project",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/base/chaoyang/list/_html/index.html",
+		"/Users/liang/Work/LehoWork/LehoApp/resource/js/sp-mis/ajax_pager.js",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/base/chaoyang/list/js/ajax_pager.js",
+		"/Users/liang/Work/MyWork/shell/new/js/global/ajax_pager_mini.js",
+		"/Users/liang/Work/LehoWork/LehoApp/sp-mis/common/tpl/inc/pager4js.inc",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/common/tpl/pager4js.inc",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/sns/common/js/utils/pvCounter.js",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/sns/common/js/utils/poller.js",
+		"/Users/liang/Work/LehoWork/LehoApp/resource/js/components/cache/_examples/cookie.html",
+		"/Users/liang/Work/LehoWork/LehoApp/resource/js/components/cache/_examples/storage.html",
+		"/Users/liang/Work/LehoWork/LehoApp/resource/js/components/cache/storage.js",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/sns/common/js/utils/card.js",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/sns/common/js/utils/add_favorite.js",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/sns/common/js/utils/hints.js",
+		"/Users/liang/Work/LehoWork/LehoApp/sp/sns/common/js/utils/loginForCoin.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"__require",
+			"');\n",
+			"round",
+			"[];\n",
+			".so",
+			"pager",
+			"ajaxLoadPage",
+			"totalPages",
+			"timerEvent",
+			"periodicalExecuter",
+			"FlashStorage"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 146.0
+	},
+	"output.sftp":
+	{
+		"height": 128.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ajax_pager.js",
+				"LehoWork/LehoApp/sp/base/chaoyang/list/js/ajax_pager.js"
+			],
+			[
+				"ajaxpager",
+				"LehoWork/LehoApp/sp/base/chaoyang/list/js/ajax_pager.js"
+			],
+			[
+				"ajax",
+				"LehoWork/LehoApp/resource/js/global/ajax_pager.js"
+			],
+			[
+				"page.js",
+				"LehoWork/LehoApp/resource/js/global/ajax_pager.js"
+			],
+			[
+				"page",
+				"LehoWork/LehoApp/sp/common/tpl/pager4js.inc"
+			],
+			[
+				"pager4",
+				"LehoWork/LehoApp/sp-mis/common/tpl/inc/pager4js.inc"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 379.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,27 @@
+date: 2013-09-14 21:42:18.422
+argv: node /Users/liang/nvm/v0.10.17/bin/hexo generate
+os: Darwin 12.4.0 darwin x64
+version:
+  hexo: 2.1.0
+  http_parser: 1.0
+  node: 0.10.17
+  v8: 3.14.5.9
+  ares: 1.9.0-DEV
+  uv: 0.10.14
+  zlib: 1.2.3
+  modules: 11
+  openssl: 1.0.1e
+---
+
+[error] 21:42:18.418 TypeError: Cannot call method 'load' of undefined
+TypeError: Cannot call method 'load' of undefined
+    at module.exports (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/lib/plugins/console/generate/index.js:60:13)
+    at /Users/liang/nvm/v0.10.17/lib/node_modules/hexo/lib/core.js:118:9
+    at b (domain.js:183:18)
+    at Domain.run (domain.js:123:23)
+    at Hexo.call (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/lib/core.js:117:9)
+    at /Users/liang/nvm/v0.10.17/lib/node_modules/hexo/lib/init.js:262:10
+    at /Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/async/lib/async.js:422:17
+    at /Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/async/lib/async.js:416:17
+    at Array.forEach (native)
+    at _each (/Users/liang/nvm/v0.10.17/lib/node_modules/hexo/node_modules/async/lib/async.js:32:24)
