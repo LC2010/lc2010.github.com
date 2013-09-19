@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>哲学 | Superlich</title>
+  <title>casperjs | Superlich</title>
   <meta name="author" content="LiangChao">
   
   
@@ -50,7 +50,7 @@
 <div class="clearfix"></div></header>
   <div id="content" class="inner">
     <div id="main-col" class="alignleft"><div id="wrapper">
-<h2 class="archive-title tag">哲学</h2>
+<h2 class="archive-title tag">casperjs</h2>
 
 
   
@@ -60,33 +60,43 @@
     <header>
       
         <div class="icon-file-text"></div>
-        <time datetime="2013-09-13T17:37:22.000Z"><a href="/2013/09/14/心情私语/">9月 14日 2013</a></time>
+        <time datetime="2013-09-19T14:00:06.000Z"><a href="/2013/09/19/casperjs/">9月 19日 2013</a></time>
       
       
   
-    <h1 class="title"><a href="/2013/09/14/心情私语/">心情私语</a></h1>
+    <h1 class="title"><a href="/2013/09/19/casperjs/">用Casper做网站截屏</a></h1>
   
 
     </header>
     <div class="entry">
       
-        <p>美丽心情</p>
-<figure class="highlight lang-[javascript][jquery][http://www.leho.com][乐活]"><pre><span class="title">var</span> o = document.getElementById(<span class="string">'odiv'</span>);
-</pre></figure>
+        <p>网站截屏是个会遇到的硬需求，每个人至少手中应该有一个解决方案。</p>
+<p>自从有了PhantomJS之后前端就在截屏这个需求上解放了。PhantomJS是基于Webkit的一套</p>
+<p>工具，最近又出现了SlimerJS基于Gecko平台。在两者之上出现了一个CasperJS. </p>
+<p>CasperJS将两者抹平，并且提供了更加友好的API,而且最近v1.1版本可以直接引入node的模</p>
+<p>块了，所以可以做的事情特别多。这是官网上介绍的几个功能：</p>
+<ul>
+<li>defining &amp; ordering browsing navigation steps</li>
+<li>filling &amp; submitting forms</li>
+<li>capturing screenshots of a page (or part of it)</li>
+<li>testing remote DOM</li>
+<li>logging events</li>
+<li>downloading resources, including binary ones</li>
+<li>writing functional test suites, saving results as JUnit XML</li>
+<li>scraping Web contents</li>
+</ul>
+<p>更进一步的功能，大家可以参考官方文档。</p>
+<p>这里主要讲一下怎么使用CasperJS来进行屏幕截取</p>
+<script src="https://gist.github.com/6624076.js"></script>
 
-<figure class="highlight"><figcaption><span>.compact</span><a href="http://www.baidu.com" target="_blank">Underscore.js</a></figcaption><pre>.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="keyword">false</span>, <span class="number">2</span>, <span class="string">''</span>, <span class="number">3</span>]);
-=&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]
-</pre></figure>
 
-<p>
+<p>效果如下：</p>
+<img src="/img/fullpage-1440(2013-09-19).png" class="[class names]" width="800" height="200" title="截图">
+
       
     </div>
     <footer>
       
-        
-          <div class="alignleft">
-            <a href="/2013/09/14/心情私语/#more" class="more-link">继续阅读</a>
-          </div>
         
         
       
