@@ -1,3 +1,3 @@
-lc2010.github.com
+lc2010.github.io
 =================
-personal blog, thanks github!
+个人博客，每周一文
